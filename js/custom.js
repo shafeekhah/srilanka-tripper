@@ -6,7 +6,7 @@ $(document).ready(function() {
     var path = window.location.pathname.split("/").pop();
         // Account for home page with empty path
         if ( path == '' ) {
-              path = 'index.php';
+              path = 'index.html';
         }
             
         var target = $('.top-nav ul li a[href="'+path+'"]');
